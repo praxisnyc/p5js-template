@@ -1,5 +1,5 @@
 NPM := npm
-VENDOR_DIR := vendor/
+VENDOR_DIR := assets/vendors/
 
 install:
 	$(NPM) install
@@ -10,5 +10,5 @@ include-npm-deps:
 
 
 serve: install include-npm-deps
-	 browser-sync start --s
+	 browser-sync start -s -f="*"
 

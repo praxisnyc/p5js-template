@@ -17,7 +17,7 @@ gulp.task('sync', function() {
     ui: { port: 3003 }, //UI, can be any port
     reloadDelay: 1000 //Important, otherwise syncing will not work
   });
-  gulp.watch(['./**/*.js', './**/*.html', './**/*.css']).on("change", browserSync.reload);
+  gulp.watch(['/**/*.js', '/**/*.html', '/**/*.css']).on("change", browserSync.reload);
 });
 
 gulp.task('default', ['gulp_nodemon', 'sync']);
