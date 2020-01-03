@@ -10,5 +10,5 @@ include-npm-deps:
 
 
 serve: install include-npm-deps
-	 browser-sync start -s -f="*"
+	 browser-sync start -s -f="**/*"
 
