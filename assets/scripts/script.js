@@ -1,7 +1,8 @@
 function setup() { 
-  createCanvas(400, 400);
+  var myCanvas = createCanvas(400, 400);
+    myCanvas.parent("script");
 } 
 
 function draw() { 
-  background(220);
+  background(000);
 }

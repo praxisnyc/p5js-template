@@ -4,22 +4,35 @@
   <meta charset="UTF-8">
   <title>empty-example</title>
   <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/vendors/bootstrap/bootstrap.min.css">
 
 </head>
 <body>
-<html>
-  <head>
-    <script src="/assets/vendors/p5.min.js"></script>
-    <script src="/assets/vendors/p5.dom.min.js"></script>
-    <script src="/assets/vendors/p5.sound.min.js"></script>
- 
-  </head>
-  <body>
-    <h1>ddd</h1>
-    <script src="sketch.js"></script>
-  </body>
-</html>
-<!-- partial -->
-  <script  src="/assets/scripts/script.js"></script>
+
+
+
+
+  <!-- your code starts here -->
+  <div class="container" id="script">
+    <script src="/assets/scripts/script.js"></script>
+  </div>
+  <!-- your ends starts here -->
+
+
+
+
+    <script src="/assets/vendor/jquery.min.js"></script>
+  <script src="/assets/vendor/popper.min.js"></script>
+  <script src="/assets/vendor/bootstrap.min.js"></script>
+  <script src="/assets/vendors/p5.min.js"></script>
+  <script src="/assets/vendors/p5.dom.min.js"></script>
+  <script src="/assets/vendors/p5.sound.min.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+    new WOW().init();
+  </script>
 </body>
 </html>
