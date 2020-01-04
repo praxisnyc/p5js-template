@@ -6,7 +6,7 @@ Create your own p5js environment based on [this template](https://praxis.nyc/p5j
 
 This is a companion for [Praxis Processing](https://praxis.nyc/processing) workshop.
 
-Questions? Join our [processing group](https://keybase.io/team/praxis_nyc.processing) on keybase.
+Questions? Comments? [Join our group on keybase](https://keybase.io/team/praxis_nyc.processing).
 
 ## Install
 
