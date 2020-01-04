@@ -14,50 +14,53 @@
 
   <!-- your code starts here -->
   <article>
-    
-      <section class="wow">
-        <div class="container">
-    <h1>Processing Night</h1>
-    <div class="description">
-      <p>A collection of processing experiments.</p>
-      <p>More at <a href="https://praxis.nyc/processing">praxis.nyc/processing</a></p>
-    </div>
-       </div>
-      </section>
- 
 
-    <section class="wow">
+    <section>
+      <div class="container">
+        <h1>Processing Night</h1>
+        <div class="description">
+          <p>A collection of processing experiments.</p>
+          <p>More at <a href="https://praxis.nyc/processing">praxis.nyc/processing</a></p>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
       <div class="container">
         <div class="processing" id="card-1">
           <script src="/assets/scripts/card-1.js"></script>
         </div>
         <div class="description">
-           <h2>Title</h2>
-        <p>Description</p>
-        </div>
-      </div>
-      
-    </section>
+         <h2>Title</h2>
+         <p>Description</p>
+       </div>
+     </div>
 
-  </article>
-  <!-- your ends starts here -->
+   </section>
 
-
+ </article>
+ <!-- your ends starts here -->
 
 
-  <script src="/assets/vendor/jquery.min.js"></script>
-  <script src="/assets/vendor/popper.min.js"></script>
-  <script src="/assets/vendor/bootstrap.min.js"></script>
-  <script src="/assets/vendors/p5.min.js"></script>
-  <script src="/assets/vendors/p5.dom.min.js"></script>
-  <script src="/assets/vendors/p5.sound.min.js"></script>
-  <script src="/assets/vendor/wow.min.js"></script>
 
-  <script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    });
-    new WOW().init();
-  </script>
+
+ <script src="/assets/vendor/jquery.min.js"></script>
+ <script src="/assets/vendor/popper.min.js"></script>
+ <script src="/assets/vendor/bootstrap.min.js"></script>
+ <script src="/assets/vendors/p5.min.js"></script>
+ <script src="/assets/vendors/p5.dom.min.js"></script>
+ <script src="/assets/vendors/p5.sound.min.js"></script>
+ <script src="/assets/vendor/wow.min.js"></script>
+
+ <script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
+  new WOW().init();
+  $(function () {
+   $('section').addClass('wow');
+ });
+</script>
 </body>
 </html>

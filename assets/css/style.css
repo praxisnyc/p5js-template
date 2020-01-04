@@ -16,7 +16,12 @@ body {
 	padding: 0;
 	font-family: RenoMono !important;
 	text-transform: uppercase;
+	color: #333 !important;
 
+}
+
+.container {
+	width: 800px !important;
 }
 
 article {
@@ -26,6 +31,10 @@ article {
 section {
 	padding: 30px 0;
 	scroll-snap-align: start;
+	background-color: #eee;
+}
+section:nth-of-type(2n) {
+		background-color: #e0e0e0;
 }
 section .container {
 	display: grid;
