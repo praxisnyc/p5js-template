@@ -15,7 +15,7 @@
   <!-- your code starts here -->
   <article>
 
-    <section>
+    <section class="wow">
       <div class="container">
         <h1>Processing Night</h1>
         <div class="description">
@@ -26,19 +26,67 @@
     </section>
 
 
-    <section>
+    <section class="wow">
       <div class="container">
-        <div class="processing" id="card-1">
-          <script src="assets/scripts/card-1.js"></script>
+        <div class="processing" id="sketch1">
         </div>
         <div class="description">
          <h2>Title</h2>
          <p>Description</p>
        </div>
      </div>
-
    </section>
 
+    <section class="wow">
+      <div class="container">
+        <div class="processing" id="sketch2">
+        </div>
+        <div class="description">
+         <h2>Title</h2>
+         <p>Description</p>
+       </div>
+     </div>
+   </section>
+
+<!-- 
+    <section class="wow">
+      <div class="container">
+        <div class="processing" id="card3">
+          <script src="assets/scripts/card3.js"></script>
+        </div>
+        <div class="description">
+         <h2>Title</h2>
+         <p>Description</p>
+       </div>
+     </div>
+   </section>
+
+
+    <section class="wow">
+      <div class="container">
+        <div class="processing" id="card4">
+          <script src="assets/scripts/card4.js"></script>
+        </div>
+        <div class="description">
+         <h2>Title</h2>
+         <p>Description</p>
+       </div>
+     </div>
+   </section>
+
+
+    <section class="wow">
+      <div class="container">
+        <div class="processing" id="card5">
+          <script src="assets/scripts/card5.js"></script>
+        </div>
+        <div class="description">
+         <h2>Title</h2>
+         <p>Description</p>
+       </div>
+     </div>
+   </section>
+ -->
  </article>
  <!-- your ends starts here -->
 
@@ -52,15 +100,13 @@
  <script src="assets/vendors/p5.dom.min.js"></script>
  <script src="assets/vendors/p5.sound.min.js"></script>
  <script src="assets/vendor/wow.min.js"></script>
+  <script src="sketches.js"></script>
 
  <script>
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   });
   new WOW().init();
-  $(function () {
-   $('section').addClass('wow');
- });
 </script>
 </body>
 </html>
