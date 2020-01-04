@@ -2,7 +2,9 @@
 
 ![logo](https://praxis.nyc/assets/favicons/apple-touch-icon.png)
 
-This is a companion for [Praxis Processing](https://praxis.nyc/processing) workshop
+This is a companion for [Praxis Processing](https://praxis.nyc/processing) workshop.
+
+Questions? Join our [processing group](https://keybase.io/team/praxis_nyc.processing) on keybase.
 
 # Install
 
@@ -36,6 +38,4 @@ All experiments are on `sketches.js` file. It has 5 instances, but feel free to 
 1. [Sign in](https://github.com/login) or [sign up](https://github.com/join?source=header-home) on GitHub 
 2. Install [Github Desktop](https://desktop.github.com/)
 3. `PENDING`
-4. Your changes will be on `*username*.github.io/processing-night
-
-
+4. Your changes will be on `*username*.github.io/processing-night`
