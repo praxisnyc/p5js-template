@@ -10,6 +10,12 @@
 	}
 }
 
+
+
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
 	margin: 0;
@@ -24,15 +30,9 @@ body {
 	width: 800px !important;
 }
 
-article {
-	    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(3rem);
-    scroll-snap-type: y mandatory;
-}
 
 section {
 	padding: 30px 0;
-	scroll-snap-align: start;
 	background-color: #eee;
 }
 section:nth-of-type(2n) {
