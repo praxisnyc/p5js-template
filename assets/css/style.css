@@ -26,24 +26,47 @@ body {
 
 }
 
+p:last-of-type,
+h1:last-of-type,
+h2:last-of-type {
+		margin-bottom: 0;
+}
+
 .container {
 	width: 800px !important;
 }
 
 
-section {
+section, header, footer {
 	padding: 30px 0;
 	background-color: #eee;
 }
-section:nth-of-type(2n) {
+section:nth-of-type(2n-1) {
 		background-color: #e0e0e0;
 }
-section .container {
+section .container, header .container {
 	display: grid;
 	grid-template-columns: 300px 1fr;
 	grid-gap: 30px;
 }
 
+.logo {
+	height: 40px;
+}
+
+footer ul {
+
+}
+
+footer li {
+	display: inline-block;
+}
+
+footer li:not(:first-of-type):before {
+
+	content: "|";
+	padding: 0 20px;
+}
 
 
 
