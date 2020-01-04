@@ -1,5 +1,5 @@
 function setup() { 
-  var myCanvas = createCanvas(400, 400);
+  var myCanvas = createCanvas(300, 500);
     myCanvas.parent("card-5");
 } 
 
